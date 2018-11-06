@@ -1,0 +1,18 @@
+.nav-ribbon {
+  background-color: red;
+}
+
+.portrait {
+  height: 200px;
+  width: 200px;
+}
+
+.main-footer {
+  height: 60px;
+  background-color: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+.notice {
+  color: #ddd;
+}
