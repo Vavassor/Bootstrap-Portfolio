@@ -1,18 +1,39 @@
-.nav-ribbon {
-  background-color: red;
+body {
+  background: #ccc url("../images/pixel_weave.png") repeat;
 }
 
-.portrait {
-  height: 200px;
-  width: 200px;
-}
-
-.main-footer {
+.footer-ribbon {
   height: 60px;
   background-color: #666;
   border-top: 8px solid #4aaaa5;
 }
 
+.headline {
+  margin: .5em 0 0 0;
+}
+
+.main-card {
+  background-color: #ffffff;
+}
+
+.main-spacing {
+  margin: 2em 0;
+}
+
+.navbar-title {
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+.nav-ribbon {
+  background-color: #ffffff;
+}
+
 .notice {
   color: #ddd;
+}
+
+.portrait {
+  height: 200px;
+  width: 200px;
 }
