@@ -2,17 +2,22 @@ body {
   background: #ccc url("../images/pixel_weave.png") repeat;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 .container-fluid {
   overflow: hidden;
 }
 
-.footer-box {
-  padding: 2em;
-}
-
-.footer-ribbon {
+.footer {
   background-color: #666;
   border-top: 8px solid #4aaaa5;
+  bottom: 0;
+  padding: 2em;
+  position: absolute;
+  width: 100%;
 }
 
 .headline {
@@ -42,7 +47,9 @@ body {
 }
 
 .portrait {
+  float: left;
   height: 200px;
+  margin: 0 1em 0 0;
   width: 200px;
 }
 
