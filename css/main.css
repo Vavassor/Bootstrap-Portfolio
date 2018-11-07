@@ -3,9 +3,23 @@ body {
   margin-bottom: 100px;
 }
 
+hr {
+  margin-bottom: 2em;
+}
+
 html {
   min-height: 100%;
   position: relative;
+}
+
+.contact-form {
+  padding-bottom: 1em;
+}
+
+.contact-submit {
+  background-color: #4aaaa5;
+  border: none;
+  padding: .5em 2em;
 }
 
 .container-fluid {
@@ -23,12 +37,13 @@ html {
 }
 
 .headline {
-  margin: .5em 0 0 0;
+  margin: .5em 0 1em 0;
   color: #4aaaa5;
 }
 
 .main-card {
   background-color: #ffffff;
+  padding: 1em 2em;
 }
 
 .main-spacing {
