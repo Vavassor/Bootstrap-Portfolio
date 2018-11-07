@@ -48,6 +48,32 @@ html {
   margin: 0;
 }
 
+.portfolio-box {
+  position: relative;
+  padding: 0 0 2em 0;
+}
+
+.portfolio-caption {
+  background-color: #4aaaa5;
+  bottom: 50px;
+  color: #ffffff;
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio-caption p {
+  margin: 0;
+  font-family: serif;
+  font-size: 1.25em;
+}
+
+.portfolio-image {
+  width: 100%;
+}
+
 .portrait {
   float: left;
   height: 200px;
