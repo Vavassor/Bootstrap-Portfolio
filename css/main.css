@@ -2,14 +2,18 @@ body {
   background: #ccc url("../images/pixel_weave.png") repeat;
 }
 
+.footer-box {
+  padding: 2em;
+}
+
 .footer-ribbon {
-  height: 60px;
   background-color: #666;
   border-top: 8px solid #4aaaa5;
 }
 
 .headline {
   margin: .5em 0 0 0;
+  color: #4aaaa5;
 }
 
 .main-card {
@@ -20,9 +24,8 @@ body {
   margin: 2em 0;
 }
 
-.navbar-title {
-  background-color: #4aaaa5;
-  color: #ffffff;
+.navbar {
+  padding: 0;
 }
 
 .nav-ribbon {
@@ -31,9 +34,17 @@ body {
 
 .notice {
   color: #ddd;
+  margin: 0;
 }
 
 .portrait {
   height: 200px;
   width: 200px;
+}
+
+#navbar-title {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin: 0 1em 0 0;
+  padding: 1em;
 }
