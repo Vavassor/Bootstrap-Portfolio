@@ -1,5 +1,6 @@
 body {
   background: #ccc url("../images/pixel_weave.png") repeat;
+  margin-bottom: 100px;
 }
 
 html {
@@ -15,6 +16,7 @@ html {
   background-color: #666;
   border-top: 8px solid #4aaaa5;
   bottom: 0;
+  height: 100px;
   padding: 2em;
   position: absolute;
   width: 100%;
