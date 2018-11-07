@@ -2,6 +2,10 @@ body {
   background: #ccc url("../images/pixel_weave.png") repeat;
 }
 
+.container-fluid {
+  overflow: hidden;
+}
+
 .footer-box {
   padding: 2em;
 }
@@ -45,6 +49,7 @@ body {
 #navbar-title {
   background-color: #4aaaa5;
   color: #ffffff;
-  margin: 0 1em 0 0;
+  margin: 0;
   padding: 1em;
+  text-align: center;
 }
